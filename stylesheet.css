@@ -10,8 +10,30 @@ a:focus-visible{
     background-color: yellow;
 }
 
+h1{
+    text-align: left;
+    font-family: "Calisto MT", "Arial", sans-serif;
+    font-size: 1em;
+    font-weight:bold;
+}
+
+h2{
+    font-size: 0.6em;
+    margin:0em;
+    font-weight: bold;
+    font-family: "Calisto MT", "Arial", sans-serif;
+}
+
+p{
+    font-size: 0.5em;
+    text-align: left;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    margin:0em;
+}
+
 body {
-    color:#000000;              
+    color:#d1d1d1;              
     background-color:#735449;      
     font-size: 1.25em;
     font-family: "Helvetica", "Arial", sans-serif;
@@ -61,18 +83,106 @@ nav ul{
 
 nav img{
     display:block;
-    width: 4em;
+    width: 4.5em;
 }
 
 .proceslijn{
 background-image: url(images/proceslijn.png);
 background-repeat: no-repeat;
 background-size: contain;
-background-position: center;
-height:68vh;
+background-position:center;
+height:110vh;
 margin-top:0.5em;
 }
 
-.shirt{
+.proceslijn h1{
+    margin:0.5em 0em 0em 0.5em;
+}
+
+.flexboxshirt img{
     width:8em;
+}
+
+.flexboxbroek img{
+    width:7em;
+    margin-left:0.5em;
+}
+
+.flexboxshirt{
+    display:flex;
+    margin-right:0.5em;
+}
+
+.flexboxbroek{
+    display:flex;
+    margin-right:0.5em;
+}
+
+.introtekst{
+    display:flex;
+    justify-content: left;
+    flex-direction: column;
+    margin: 1.7em 1.9em;
+    width:65%;
+    flex-wrap: wrap;    
+}
+
+.werknemers{
+    display:flex;
+    justify-content: left;
+    flex-direction: column;
+    margin: 1.7em 1.9em;
+    width:65%;
+    flex-wrap: wrap;    
+}
+
+.patch{
+    margin:0.2em 0em 0em 0.5em;
+    background-image: url(images/patch.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:40em;
+}
+
+.homepagina h1{
+    margin-left: 2em;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+}
+
+.homepagina{
+    height:90vh
+}
+
+.procespagina{
+    height:150vh;
+}
+
+.kapottebroek{
+    display:flex;
+    margin-right:0.5em;
+    margin-top:1.8em;
+    margin-left:2.7em;
+}
+
+.kapottebroek img{
+    width:4em;
+}
+
+.beginproces{
+    display:flex;
+    justify-content: left;
+    flex-direction: column;
+    margin: 1.7em 1.9em;
+    width:65%;
+    flex-wrap: wrap;    
+}
+
+.kapottebroek .patch{
+    margin:0em 0em 0em 2em;
+    background-image: url(images/patch.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:40em;
+    
 }
