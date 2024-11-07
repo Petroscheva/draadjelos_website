@@ -91,17 +91,14 @@ nav img:active{
     transition:all 100ms ease;
 }
 
-.proceslijn{
-background-image: url(images/proceslijn.png);
-background-repeat: no-repeat;
-background-size: contain;
-background-position:center;
-height:110vh;
-margin-top:0.5em;
+.homepagina{
+    height:90vh
 }
 
-.proceslijn h1{
-    margin:0em 0em 0em 0.5em;
+.homepagina h1{
+    margin-left: 2em;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
 }
 
 .flexboxshirt img{
@@ -149,18 +146,21 @@ margin-top:0.5em;
     width:40em;
 }
 
-.homepagina h1{
-    margin-left: 2em;
-    margin-top:0.5em;
-    margin-bottom:0.5em;
-}
-
-.homepagina{
-    height:90vh
-}
-
 .procespagina{
     height:145vh;
+}
+
+.proceslijn{
+    background-image: url(images/proceslijn.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center;
+    height:110vh;
+    margin-top:0.5em;
+}
+    
+.proceslijn h1{
+    margin:0em 0em 0em 0.5em;
 }
 
 .kapottebroek{
