@@ -86,6 +86,11 @@ nav img{
     width: 4.5em;
 }
 
+nav img:active{
+    transform:scale(0.8);
+    transition:all 100ms ease;
+}
+
 .proceslijn{
 background-image: url(images/proceslijn.png);
 background-repeat: no-repeat;
@@ -155,7 +160,7 @@ margin-top:0.5em;
 }
 
 .procespagina{
-    height:150vh;
+    height:145vh;
 }
 
 .kapottebroek{
@@ -250,7 +255,7 @@ margin-top:0.5em;
 }
 
 .gereedschapspagina{
-    height:110vh;
+    height:105vh;
 }
 
 .materialen{
@@ -314,7 +319,7 @@ margin-top:0.5em;
     display:flex;
     margin-right:0.5em;
     margin-top:0.5em;
-    margin-left:0.5em;
+    margin-left:2.5em;
 }
 
 .naaimachinetwee img{
@@ -331,9 +336,31 @@ margin-top:0.5em;
 }
 
 .naaimachinetwee .patch{
-    margin:0.5em 0em 0em 1.5em;
+    margin:0.5em 0em 0em 1em;
     background-image: url(images/patch.png);
     background-repeat: no-repeat;
     background-size: contain;
     width:60%;
+}
+
+ main img:active{
+    animation: rotate;
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 300ms;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
