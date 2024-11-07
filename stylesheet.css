@@ -202,7 +202,7 @@ margin-top:0.5em;
 }
 
 .reparatie .patch{
-    margin:0em 1.8em 0em 0em;
+    margin:0.5em 1.8em 0em 0em;
     background-image: url(images/patch.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -225,10 +225,103 @@ margin-top:0.5em;
 }
 
 .eindproduct img{
-    width:4em;
+    width:5em;
 }
 
 .eindproducttekst{
+    display:flex;
+    justify-content: left;
+    flex-direction: column;
+    margin: 1.7em 1.5em;
+    width:65%;
+    flex-wrap: wrap;    
+}
+
+.eindproduct .patch{
+    margin:0.5em 0em 0em 1.5em;
+    background-image: url(images/patch.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:60%;
+}
+
+.gereedschapspagina h1{
+    margin:0.5em 3.1em;
+}
+
+.gereedschapspagina{
+    height:110vh;
+}
+
+.materialen{
+    display:flex;
+    margin-right:0.5em;
+    margin-top:0.5em;
+    margin-left:0.5em;
+}
+
+.materialen img{
+    width:9em;
+}
+
+.materialentekst{
+    display:flex;
+    justify-content: left;
+    flex-direction: column;
+    margin: 1.5em 1.7em;
+    width:65%;
+    flex-wrap: wrap;    
+}
+
+.materialen .patch{
+    margin:1em 0em 0em 0em;
+    background-image: url(images/patch.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.naaimachine{
+    display:flex;
+    margin-right:0.5em;
+    margin-top:0.5em;
+    margin-left:0.5em;
+}
+
+.naaimachinetekst{
+    display:flex;
+    justify-content: left;
+    flex-direction: column;
+    margin: 1.7em 2.1em 1.7em 1.7em;
+    flex-wrap: wrap;    
+}
+
+.naaimachine .patch{
+    margin:0em;
+    background-image: url(images/patch.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.naaimachine{
+    display:flex;
+}
+
+.naaimachine img{
+    width:8em;
+}
+
+.naaimachinetwee{
+    display:flex;
+    margin-right:0.5em;
+    margin-top:0.5em;
+    margin-left:0.5em;
+}
+
+.naaimachinetwee img{
+    width:6em;
+}
+
+.naaimachinetweetekst{
     display:flex;
     justify-content: left;
     flex-direction: column;
@@ -237,10 +330,10 @@ margin-top:0.5em;
     flex-wrap: wrap;    
 }
 
-.eindproduct .patch{
-    margin:0em 0em 0em 2em;
+.naaimachinetwee .patch{
+    margin:0.5em 0em 0em 1.5em;
     background-image: url(images/patch.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width:40em;
+    width:60%;
 }
