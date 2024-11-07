@@ -147,7 +147,7 @@ nav img:active{
 }
 
 .procespagina{
-    height:145vh;
+    height:150vh;
 }
 
 .proceslijn{
@@ -248,6 +248,12 @@ nav img:active{
     background-repeat: no-repeat;
     background-size: contain;
     width:60%;
+}
+
+.shoutoutoma{
+    margin:7em 0em 0em 10em;
+    width:50%;
+    
 }
 
 .gereedschapspagina h1{
